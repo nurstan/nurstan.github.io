@@ -1,0 +1,173 @@
+.navigation-bar {
+    width: 100%;  
+    background-color: white; 
+    box-shadow: 0 20px 20px -20px #333;
+    overflow-X: hidden;}
+
+.navigation-bar  a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    height: 50px;        
+    line-height: 100px; 
+    text-decoration: none;
+    text-decoration-style: bold;
+    color: black;
+    font-weight: bold;
+    outline: initial;
+    font-size: 15px;
+    font-family: 'Just Another Hand', cursive;
+    margin-top: -20px;
+    transition: 1s}
+
+.navigation-bar a:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s}
+
+.logo {
+    width: 90px;
+    height: 60px;
+    margin-right: 50px;
+    margin-top: 2px;}
+
+.navigation-bar a input {
+    width: 100px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid;
+    text-align: center;
+    top: -20px;}
+
+.navigation-bar a input:focus {
+    width: 100%;}
+
+
+
+
+
+
+
+
+.pic1 {margin-left: 50px;}
+
+.typetext {
+    margin-left: 50px;
+    margin-top: 30px;}
+  
+span {font-family: 'Bradley Hand', cursive;
+      text-align: center;}
+
+h1{ font-family: 'Comic Sans MS, Comic Sans', cursive; 
+    margin-left: 50px;
+    width: 820px;
+    font-size: 20px;}
+
+h2 {font-family: 'Сomic Sans MS', cursive;
+    margin-left: 50px;
+    width: 820px;
+    font-size: 18px;
+    font-weight: normal;}
+
+h3 {font-family: 'Сomic Sans MS', cursive;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    width: 820px;
+    font-size: 15px;
+    font-weight: normal;}
+ 
+iframe {
+    margin-left: 100px;}
+
+ .videoplay iframe{
+    margin-left: 50px;}
+
+
+
+
+
+
+
+
+.block_services {
+    margin-left:  100px;
+    border: 2px solid black;
+    width: 670px;}
+
+.block_services a:before,.block_services a:after,.block_services a:hover span{
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    transition: all .4s ease-out;}
+
+.block_services a{
+    position:relative;
+    overflow:hidden;
+    padding:15px;
+    display:inline-block;
+    color:#212121;
+    text-decoration:none;
+    text-align: center;
+    background:#f2f2f2;}
+
+.block_services a:hover span{
+    position: relative;
+    z-index: 1;}
+
+.block_services a:hover span{
+    color:#fff}
+
+.block_services a:before,.block_services a:after{
+    content:'';
+    position:absolute;
+    width:300%;
+    height:100%;
+    -moz-transform: skew(-30deg, 0deg);
+    -o-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    -ms-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+    z-index:0;}
+
+.block_services a:before{
+    top:0;
+    left:200%;
+    background:#ad131f;}
+
+.block_services a:after{
+    top:0;
+    right:200%;
+    background:#b81625;}
+
+.block_services a:hover:after{
+    right:49%;}
+
+.block_services a:hover:before{
+    left:50%;}
+
+
+
+
+.topbutton {
+    width:100px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family:'Just Another Hand', cursive;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;}
+
+
+
